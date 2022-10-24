@@ -1,0 +1,13 @@
+[package]
+name = "snbclabelprint"
+version = "0.1.0"
+edition = "2021"
+[lib]
+name="snbclabelprint"
+crate-type=["dylib"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libloading="0.7.3"
+libc = "0.2.135"
+encoding = "0.2.33"
